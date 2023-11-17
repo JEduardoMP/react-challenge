@@ -7,7 +7,7 @@ import { matchNames } from './services/matchNames';
 const App = () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [highlightedElements, setHighlightedElements] = useState<any[] | []>(
-    []
+    [],
   );
   const [name, setName] = useState({
     firstName: '',
@@ -30,9 +30,9 @@ const App = () => {
 
   return (
     <div>
-      <div className='highlighted-elements'>
+      <div className="highlighted-elements">
         {highlightedElements.map((element, idx) => (
-          <div key={element} className='highlighted-element'>
+          <div key={element} className="highlighted-element">
             <PeriodicTable element={element} />
             {idx === 0 ? <h2>{name.firstName}</h2> : <h2>{name.lastName}</h2>}
           </div>

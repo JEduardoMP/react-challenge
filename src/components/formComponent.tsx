@@ -25,13 +25,13 @@ const FormComponent: FC<Props> = ({ highlightName }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='form-container'>
-      <div className='inputs-container'>
+    <form onSubmit={handleSubmit} className="form-container">
+      <div className="inputs-container">
         <label>
           First Name:
           <input
-            type='text'
-            name='firstName'
+            type="text"
+            name="firstName"
             value={firstName}
             onChange={handleInputChange}
           />
@@ -39,14 +39,14 @@ const FormComponent: FC<Props> = ({ highlightName }) => {
         <label>
           Last Name:
           <input
-            type='text'
-            name='lastName'
+            type="text"
+            name="lastName"
             value={lastName}
             onChange={handleInputChange}
           />
         </label>
       </div>
-      <button type='submit'>Breakly</button>
+      <button type="submit">Breakly</button>
     </form>
   );
 };
