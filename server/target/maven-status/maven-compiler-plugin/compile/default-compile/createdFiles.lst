@@ -1,0 +1,7 @@
+com/example/periodicTable/model/HighlightResult.class
+com/example/periodicTable/Application.class
+com/example/periodicTable/service/HighlightService.class
+com/example/periodicTable/service/PeriodicTableApiService.class
+com/example/periodicTable/controller/HighlightController.class
+com/example/periodicTable/model/HighlightRequest.class
+com/example/periodicTable/model/Element.class

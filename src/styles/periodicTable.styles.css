@@ -1,0 +1,26 @@
+.periodic-table-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  margin-right: 0.5rem;
+}
+
+.periodic-element {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #0D3E10;
+}
+
+.periodic-element > h2 {
+  margin-top: 3rem;
+  color: #FFF;
+}
+
+.element-symbol {
+  font-weight: bold;
+}
+
+.element-name {
+  margin-top: 5px;
+}

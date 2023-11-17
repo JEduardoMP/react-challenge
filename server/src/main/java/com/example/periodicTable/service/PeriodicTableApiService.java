@@ -1,0 +1,136 @@
+package com.example.periodicTable.service;
+
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@Service
+public class PeriodicTableApiService {
+
+  public Map<String, String> getElementsFromPeriodicTable() {
+
+    Map<String, String> chemestryMap = new HashMap<>();
+
+    chemestryMap.put("H", "");
+    chemestryMap.put("He", "");
+    chemestryMap.put("Li", "");
+    chemestryMap.put("Be", "");
+    chemestryMap.put("B", "");
+    chemestryMap.put("C", "");
+    chemestryMap.put("N", "");
+    chemestryMap.put("O", "");
+    chemestryMap.put("F", "");
+    chemestryMap.put("Ne", "");
+    chemestryMap.put("Na", "");
+    chemestryMap.put("Mg", "");
+    chemestryMap.put("Al", "");
+    chemestryMap.put("Si", "");
+    chemestryMap.put("P", "");
+    chemestryMap.put("S", "");
+    chemestryMap.put("Cl", "");
+    chemestryMap.put("Ar", "");
+    chemestryMap.put("K", "");
+    chemestryMap.put("Ca", "");
+    chemestryMap.put("Sc", "");
+    chemestryMap.put("Ti", "");
+    chemestryMap.put("V", "");
+    chemestryMap.put("Cr", "");
+    chemestryMap.put("Mn", "");
+    chemestryMap.put("Fe", "");
+    chemestryMap.put("Co", "");
+    chemestryMap.put("Ni", "");
+    chemestryMap.put("Cu", "");
+    chemestryMap.put("Zn", "");
+    chemestryMap.put("Ga", "");
+    chemestryMap.put("Ge", "");
+    chemestryMap.put("As", "");
+    chemestryMap.put("Se", "");
+    chemestryMap.put("Br", "");
+    chemestryMap.put("Kr", "");
+    chemestryMap.put("Rb", "");
+    chemestryMap.put("Sr", "");
+    chemestryMap.put("Y", "");
+    chemestryMap.put("Zr", "");
+    chemestryMap.put("Nb", "");
+    chemestryMap.put("Mo", "");
+    chemestryMap.put("Tc", "");
+    chemestryMap.put("Ru", "");
+    chemestryMap.put("Rh", "");
+    chemestryMap.put("Pd", "");
+    chemestryMap.put("Ag", "");
+    chemestryMap.put("Cd", "");
+    chemestryMap.put("In", "");
+    chemestryMap.put("Sn", "");
+    chemestryMap.put("Sb", "");
+    chemestryMap.put("Te", "");
+    chemestryMap.put("I", "");
+    chemestryMap.put("Xe", "");
+    chemestryMap.put("Cs", "");
+    chemestryMap.put("Ba", "");
+    chemestryMap.put("La", "");
+    chemestryMap.put("Ce", "");
+    chemestryMap.put("Pr", "");
+    chemestryMap.put("Nd", "");
+    chemestryMap.put("Pm", "");
+    chemestryMap.put("Sm", "");
+    chemestryMap.put("Eu", "");
+    chemestryMap.put("Gd", "");
+    chemestryMap.put("Tb", "");
+    chemestryMap.put("Dy", "");
+    chemestryMap.put("Ho", "");
+    chemestryMap.put("Er", "");
+    chemestryMap.put("Tm", "");
+    chemestryMap.put("Yb", "");
+    chemestryMap.put("Lu", "");
+    chemestryMap.put("Hf", "");
+    chemestryMap.put("Ta", "");
+    chemestryMap.put("W", "");
+    chemestryMap.put("Re", "");
+    chemestryMap.put("Os", "");
+    chemestryMap.put("Ir", "");
+    chemestryMap.put("Pt", "");
+    chemestryMap.put("Au", "");
+    chemestryMap.put("Hg", "");
+    chemestryMap.put("Tl", "");
+    chemestryMap.put("Pb", "");
+    chemestryMap.put("Bi", "");
+    chemestryMap.put("Po", "");
+    chemestryMap.put("At", "");
+    chemestryMap.put("Rn", "");
+    chemestryMap.put("Fr", "");
+    chemestryMap.put("Ra", "");
+    chemestryMap.put("Ac", "");
+    chemestryMap.put("Th", "");
+    chemestryMap.put("Pa", "");
+    chemestryMap.put("U", "");
+    chemestryMap.put("Np", "");
+    chemestryMap.put("Pu", "");
+    chemestryMap.put("Am", "");
+    chemestryMap.put("Cm", "");
+    chemestryMap.put("Bk", "");
+    chemestryMap.put("Cf", "");
+    chemestryMap.put("Es", "");
+    chemestryMap.put("Fm", "");
+    chemestryMap.put("Md", "");
+    chemestryMap.put("No", "");
+    chemestryMap.put("Lr", "");
+    chemestryMap.put("Rf", "");
+    chemestryMap.put("Db", "");
+    chemestryMap.put("Sg", "");
+    chemestryMap.put("Bh", "");
+    chemestryMap.put("Hs", "");
+    chemestryMap.put("Mt", "");
+    chemestryMap.put("Ds", "");
+    chemestryMap.put("Rg", "");
+    chemestryMap.put("Cn", "");
+    chemestryMap.put("Nh", "");
+    chemestryMap.put("Fl", "");
+    chemestryMap.put("Mc", "");
+    chemestryMap.put("Lv", "");
+    chemestryMap.put("Ts", "");
+    chemestryMap.put("Og", "");
+
+    return chemestryMap;
+  }
+}
