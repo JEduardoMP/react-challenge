@@ -1,30 +1,18 @@
-# React + TypeScript + Vite
+Challenge React.js 
+Create a branch into this public repository, with your name and lastname, and push it to the repo https://github.com/sebasworkana/react-challenge.git . Complete challenge and create a PR so that we can review and approve
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The main challenge is that you create a Page with the following Style and format. alt text
 
-Currently, two official plugins are available:
+You need to enumerate all Periodic table of the elements on CSS class and make use of it, matching words in First name and last name "Highlighting" them as in the image.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+First, install "react-redux", then use the useDispatch and useSelector react-redux hooks in the components.
 
-## Expanding the ESLint configuration
+For this challenge use redux-thunk in it. Moreover, use the react-redux hooks to give a better impression and avoid older techniques. Share data among components without using props.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Is mandatory to use linter like ESLINT
 
-- Configure the top-level `parserOptions` property like this:
+Create npm scripts to run project and make sure to create a readme with instructions to run project
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Will be valuable if you can create Docker compose file to run all environment
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Use github pages to host web app and test
